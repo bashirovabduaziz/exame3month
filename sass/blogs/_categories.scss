@@ -1,0 +1,26 @@
+.categories{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 50px;
+    &__logos{
+        width: 1200px;
+    }
+    &__list{
+       display: flex;
+       flex-wrap: wrap;
+       list-style: none;
+    }
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+margin-left: 20px;
+    }
+    &__img{
+        width: 280px;
+        margin-left: 20px;
+    }
+}

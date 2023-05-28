@@ -1,0 +1,45 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    align-items: center;
+    &__assist{
+        display: flex;
+    }
+    &__right{
+        background-color: #CCCC;
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    &__text{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+width: 680px;
+margin-bottom: 30px;
+    }
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 40px;
+    }
+    &__p{
+        font-family: 'Montserrat SemiBold';
+font-size: 14px;
+line-height: 24px;
+color: #808080;
+    }
+    &__left{
+        margin-left: 100px;
+}
+&__img{
+    margin-top: 230px;
+    margin-left: -50px;
+}
+}

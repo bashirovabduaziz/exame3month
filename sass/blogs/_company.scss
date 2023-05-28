@@ -1,0 +1,79 @@
+.company{
+    width: 1200px;
+    margin: 0 auto;
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+cursor: pointer;
+    }
+    &__img{
+        width: 300px;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+    }
+    &__link{
+        margin-left: 80px;
+        cursor: pointer;
+        width: 300px;
+        overflow: hidden;
+
+    }
+    &__date{
+        display: flex;
+        cursor: pointer;
+
+    }
+    &__num{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #808080;
+cursor: pointer;
+
+    }
+    &__text{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #1C3554;
+cursor: pointer;
+
+    }
+    &__p{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #808080;
+width: 380px;
+cursor: pointer;
+
+    }
+    &__read{
+        font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+color: #F72585;
+cursor: pointer;
+
+    }
+    &__link:hover{
+        transition: 3s;
+    box-shadow: 10px 10px 10px 10px rgb(172, 164, 164);
+    border-radius: 20px;
+    overflow: hidden;
+    }
+}

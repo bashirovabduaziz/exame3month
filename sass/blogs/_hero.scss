@@ -1,0 +1,86 @@
+.hero{
+    max-width: 100%;
+    width: 1200px;
+    height: 630px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    background-color:  #021934;
+    &__right{
+        background: #E6E6E6;
+        height: 595px;
+        margin-left: 100px;
+        border-radius: 10px;
+        margin-top: 36px;
+    }
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 88px;
+color: #FFFFFF;
+width: 490px;
+margin-left: 60px;
+cursor: pointer;
+    }
+    &__text{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #FFFFFF;
+width: 500px;
+margin-left: 60px;
+cursor: pointer;
+    }
+   
+      
+      &__input {
+        width: 500px;
+        height: 80px;
+      
+        background: #FFFFFF;
+        border-radius: 8px;
+        border:none;
+        margin-left: 60px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      
+      &__button {
+        width: 121px;
+        height: 56px;
+        background: #F72585;
+        border-radius: 8px;
+        border:none;
+        margin-left:-140px;
+        font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+    color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+        cursor: pointer;
+      }
+   &__button:hover{
+    transition: 2s;
+    color: #F72585;
+    background-color: #FFFFFF;
+    border: 2px solid #F72585;
+   }
+   &__list{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+   }
+   &__link{
+    list-style: none;
+    margin-left: 30px;
+    cursor: pointer;
+   }
+}

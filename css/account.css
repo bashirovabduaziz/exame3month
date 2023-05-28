@@ -1,0 +1,268 @@
+@import url(reset.css);
+@import url(scroll.css);
+@import url(font-family.css);
+:root {
+  --container-bg: #b0d8da;
+  --br: 1px solid red;
+  --text-color: #ffffff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  border: none !important;
+}
+
+body {
+  width: 1200px !important;
+  margin: 0 auto !important;
+  height: 100vh;
+  background-color: #ffffff;
+}
+body > .header {
+  width: 1200px;
+  height: 440px;
+  background-color: #666666;
+}
+body > .header > .navbar {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+}
+body > .header > .navbar > .nav-logo {
+  margin-left: 104px;
+}
+body > .header > .navbar > .nav-inp {
+  width: 443px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+body > .header > .navbar > .nav-inp::placeholder {
+  font-family: "Montserrat-Regular";
+  padding-left: 16px;
+  color: #ffffff;
+}
+body > .header > .navbar > select {
+  color: #ffffff;
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+}
+body > .header > .navbar > .nav-links {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold";
+  font-size: 16px;
+}
+body > .header > .navbar > .img-user {
+  width: 48px;
+  height: 48px;
+  background: #aaaaaa;
+  border-radius: 50%;
+}
+body > .header > .navbar > .user-gmail {
+  color: #ffffff;
+  font-family: "Montserrat-SemiBold";
+  font-size: 14px;
+  margin-right: 104px;
+}
+body > .main {
+  width: 1200px;
+  height: 1625px;
+  margin-left: 60px;
+  margin-top: 48px;
+}
+body > .main > .acc {
+  width: 575px;
+  height: 150px;
+}
+body > .main > .acc > .user-img {
+  width: 150px;
+  height: 150px;
+  background: #cccccc;
+  border-radius: 50%;
+  float: left;
+}
+body > .main > .acc > .account {
+  width: 390px;
+  height: auto;
+  float: left;
+  margin-top: 35px;
+  margin-left: 26px;
+}
+body > .main > .acc > .account > .name {
+  font-family: "Rubik-Bold";
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #1c3554;
+}
+body > .main > .acc > .account > .subtitle {
+  font-family: "Rubik-Regular";
+  font-size: 16px;
+  color: #808080;
+  text-transform: capitalize;
+}
+body > .main > .main-main {
+  width: 1200px;
+  height: 160px;
+  margin-left: -100px;
+}
+body > .main > .main-main > .content-links {
+  font-family: "Rubik-Regular";
+  font-size: 32px;
+  color: #808080;
+  margin-left: 200px;
+  position: relative;
+  top: 64px;
+}
+body > .main > .main-main > .content-links:active {
+  font-family: "Rubik-Medium";
+  color: #1c3554;
+  text-decoration: underline #f72585;
+}
+body > .main > .card {
+  width: 295px;
+  height: 427px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+body > .main > .card > .card-img {
+  width: 262.89px;
+  height: 208px;
+  background: #cccccc;
+  border-radius: 4px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+body > .main > .card > .card-btn {
+  width: 131px;
+  height: 32px;
+  background: #4586d6;
+  border-radius: 8px;
+  position: relative;
+  top: -16px;
+  left: 80px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 12px;
+  color: #ffffff;
+}
+body > .main > .card > .card-titles {
+  width: 242.89px;
+  margin-left: 16px;
+  font-family: "Rubik-Medium";
+  font-size: 16px;
+  color: #1c3554;
+  text-transform: capitalize;
+}
+body > .main > .card > .card-subtitle {
+  font-family: "Montserrat-SemiBold";
+  font-size: 12px;
+  color: #f72585;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+body > .main > .card > .rating {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-family: "Montserrat-SemiBold";
+  font-size: 14px;
+  color: #808080;
+}
+body > .main > .card > .prize {
+  color: #cccccc;
+  font-family: "Raleway-SemiBold";
+  position: relative;
+  top: 20px;
+  left: 16px;
+}
+body > .main > .card > .prize2 {
+  font-family: "Rubik-Medium";
+  font-size: 24px;
+  color: #1C3554;
+  position: relative;
+  left: 65px;
+  top: -5px;
+}
+body > .main > .card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.412);
+}
+body > .footer {
+  width: 1200px;
+  height: 435px;
+  margin-top: 160px;
+  margin-left: 20px;
+  background-color: #021934;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+}
+body > .footer > .footer-left {
+  width: 45%;
+  height: 100%;
+  margin-left: 68px;
+  overflow: hidden;
+}
+body > .footer > .footer-left > img {
+  margin-top: 80px;
+}
+body > .footer > .footer-left > .left-subtitle {
+  width: 450px;
+  margin-top: 36px;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  color: #ffffff;
+}
+body > .footer > .footer-left > .left-a {
+  margin-top: 139px;
+  color: #ffffff;
+  font-family: "Montserrat-Regular";
+}
+body > .footer > .footer-right {
+  width: 50%;
+  height: 100%;
+}
+body > .footer > .footer-right > .right-elements {
+  width: 126px;
+  height: 50%;
+  float: left;
+  margin-left: 75px;
+  margin-top: 80px;
+}
+body > .footer > .footer-right > .right-elements > .right-title {
+  font-family: "Rubik-Medium";
+  font-size: 24px;
+  color: #ffffff;
+}
+body > .footer > .footer-right > .right-elements > .links1 {
+  display: block;
+  width: 126px;
+  font-family: "Rubik-Regular";
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+body > .footer > .footer-right > .right-elements > .links {
+  display: block;
+  width: 126px;
+  font-family: "Rubik-Regular";
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+body > .footer > .footer-right > .right-p {
+  display: block;
+  margin-top: 370px;
+  margin-left: 320px;
+  font-family: "Rubik-Regular";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=account.css.map */

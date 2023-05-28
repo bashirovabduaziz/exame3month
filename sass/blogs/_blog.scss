@@ -1,0 +1,116 @@
+.blog{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #1C3554;
+text-align: center;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+    }
+    &__item {
+        font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+color: #AAAA;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none;
+    }
+    &__item-design{
+        background: #F72585;
+border-radius: 8px;
+font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 20px 50px 20px 50px;
+}
+&__item-design:hover{
+   transition: 1s;
+   background-color: #FFFFFF;
+   border: 1px solid #F72585;
+}
+&__item:hover{
+    transition: 1s;
+    color: #F72585;
+}
+  &__cards{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }  
+  &__card{
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  &__card:hover{
+    transition: 3s;
+    box-shadow: 10px 10px 10px 10px rgb(172, 164, 164);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  &__text{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+font-feature-settings: 'pnum' on, 'lnum' on;
+width: 185px;
+  }
+  &__p{
+    font-family: 'Montserrat SemiBold';
+font-size: 12px;
+line-height: 24px;
+color: #F72585;
+  }
+  &__btn{
+    font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+/* Text/white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 20px 70px 20px 70px;
+border: none;
+background: #F72585;
+border-radius: 8px;
+ margin-left: 500px;
+ margin-top: 40px;
+}
+&__btn:hover{
+    transition: 1s;
+   background-color: #FFFFFF;
+   border: 1px solid #F72585;
+   color: #F72585;
+}
+}

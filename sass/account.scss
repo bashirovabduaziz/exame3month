@@ -1,0 +1,309 @@
+@import url(reset.css);
+@import url(scroll.css);
+@import url(font-family.css);
+
+:root {
+  --container-bg: #b0d8da;
+  --br: 1px solid red;
+  --text-color: #ffffff;
+}
+a{
+  text-decoration: none !important;
+}
+button{
+  border: none !important;
+}
+body {
+  width: 1200px !important;
+  margin: 0 auto !important;
+  height: 100vh;
+  background-color: #ffffff;
+
+  & > .header {
+    width: 1200px;
+    height: 440px;
+    // border-bottom: var(--br);
+    background-color: #666666;
+
+    & > .navbar {
+      height: 120px;
+      // border-bottom: var(--br);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      overflow: auto;
+
+      & > .nav-logo {
+        margin-left: 104px;
+      }
+
+      & > .nav-inp {
+        width: 443px;
+        height: 48px;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        box-sizing: border-box;
+      }
+      & > .nav-inp::placeholder {
+        font-family: "Montserrat-Regular";
+        padding-left: 16px;
+        color: #ffffff;
+      }
+
+      & > select {
+        color: #ffffff;
+        font-family: "Montserrat-Bold";
+        font-size: 16px;
+      }
+      & > .nav-links {
+        color: #ffffff;
+        font-family: "Montserrat-SemiBold";
+        font-size: 16px;
+      }
+
+      & > .img-user {
+        width: 48px;
+        height: 48px;
+        background: #aaaaaa;
+        border-radius: 50%;
+      }
+
+      & > .user-gmail {
+        color: #ffffff;
+        font-family: "Montserrat-SemiBold";
+        font-size: 14px;
+        margin-right: 104px;
+      }
+    }
+  }
+
+  & > .main {
+    width: 1200px;
+    height: 1625px;
+    // border: var(--br);
+    margin-left: 60px;
+    margin-top: 48px;
+
+    & > .acc {
+      width: 575px;
+      height: 150px;
+      // border: var(--br);
+
+      & > .user-img {
+        width: 150px;
+        height: 150px;
+        background: #cccccc;
+        border-radius: 50%;
+        float: left;
+      }
+
+      & > .account {
+        width: 390px;
+        height: auto;
+        // border: var(--br);
+        float: left;
+        margin-top: 35px;
+        margin-left: 26px;
+
+        & > .name {
+          font-family: "Rubik-Bold";
+          font-size: 32px;
+          text-transform: capitalize;
+          color: #1c3554;
+        }
+
+        & > .subtitle {
+          font-family: "Rubik-Regular";
+          font-size: 16px;
+          color: #808080;
+          text-transform: capitalize;
+        }
+      }
+    }
+
+    & > .main-main {
+      width: 1200px;
+      height: 160px;
+      margin-left: -100px;
+      // border: var(--br);
+
+      & > .content-links {
+        // float: inline-start;
+        font-family: "Rubik-Regular";
+        font-size: 32px;
+        color: #808080;
+        margin-left: 200px;
+        position: relative;
+        top: 64px;
+      }
+
+      & > .content-links:active {
+        font-family: "Rubik-Medium";
+        color: #1c3554;
+        text-decoration: underline #f72585;
+      }
+    }
+
+    & > .card {
+      width: 295px;
+      height: 427px;
+      // border: var(--br);
+      float: left;
+      margin-left: 50px;
+      border-radius: 4px;
+      margin-top: 20px;
+
+      & > .card-img {
+        width: 262.89px;
+        height: 208px;
+        background: #cccccc;
+        border-radius: 4px;
+        margin-left: 16px;
+        margin-top: 16px;
+      }
+
+      & > .card-btn {
+        width: 131px;
+        height: 32px;
+        background: #4586d6;
+        border-radius: 8px;
+
+        position: relative;
+        top: -16px;
+        left: 80px;
+
+        font-family: "Montserrat-SemiBold";
+        font-size: 12px;
+        color: #ffffff;
+      }
+
+      & > .card-titles {
+        width: 242.89px;
+        margin-left: 16px;
+        font-family: "Rubik-Medium";
+        font-size: 16px;
+        color: #1c3554;
+        text-transform: capitalize;
+      }
+
+      & > .card-subtitle {
+        font-family: "Montserrat-SemiBold";
+        font-size: 12px;
+        color: #f72585;
+        margin-left: 16px;
+        margin-top: 16px;
+      }
+
+      & > .rating {
+        margin-left: 16px;
+        margin-top: 16px;
+        font-family: "Montserrat-SemiBold";
+        font-size: 14px;
+        color: #808080;
+      }
+
+      & > .prize {
+        color: #cccccc;
+        font-family: "Raleway-SemiBold";
+        position: relative;
+        top: 20px;
+        left: 16px;
+      }
+
+      &>.prize2 {
+        font-family: 'Rubik-Medium';
+        font-size: 24px;
+        color: #1C3554;
+        position: relative;
+        left: 65px;
+        top: -5px;
+      }
+    }
+    & > .card:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.412);
+    }
+  }
+
+  & > .footer {
+    width: 1200px;
+    height: 435px;
+    margin-top: 160px;
+    margin-left: 20px;
+    background-color: #021934;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    display: flex;
+
+    & > .footer-left {
+      width: 45%;
+      height: 100%;
+      margin-left: 68px;
+      overflow: hidden;
+      // border: var(--br);
+
+      & > img {
+        margin-top: 80px;
+      }
+      & > .left-subtitle {
+        width: 450px;
+        margin-top: 36px;
+        font-family: "Montserrat-Regular";
+        font-size: 16px;
+        color: #ffffff;
+      }
+
+      & > .left-a {
+        margin-top: 139px;
+        color: #ffffff;
+        font-family: "Montserrat-Regular";
+      }
+    }
+    & > .footer-right {
+      width: 50%;
+      height: 100%;
+      // border: var(--br);
+
+      & > .right-elements {
+        width: 126px;
+        height: 50%;
+        // border: var(--br);
+        float: left;
+        margin-left: 75px;
+        margin-top: 80px;
+
+        & > .right-title {
+          font-family: "Rubik-Medium";
+          font-size: 24px;
+          color: #ffffff;
+        }
+
+        & > .links1 {
+          display: block;
+          width: 126px;
+          font-family: "Rubik-Regular";
+          font-size: 16px;
+          color: #ffffff;
+          margin-top: 24px;
+        }
+
+        & > .links {
+          display: block;
+          width: 126px;
+          font-family: "Rubik-Regular";
+          font-size: 16px;
+          color: #ffffff;
+          margin-top: 8px;
+        }
+      }
+      & > .right-p {
+        display: block;
+        margin-top: 370px;
+        margin-left: 320px;
+        font-family: "Rubik-Regular";
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+  }
+}

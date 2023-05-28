@@ -1,0 +1,52 @@
+.mentor{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    &__right{
+        background: #CCCCCC;
+        border-radius: 8px;
+        width: 500px;
+        height:  400px;
+    }
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+    &__text{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: #808080;
+width: 500px;
+    }
+    &__btn{
+        font-family: 'Montserrat SemiBold';
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+background: #F72585;
+border-radius: 8px;
+width: 200px;
+height: 50px;
+border: none;
+    }
+    &__btn:hover{
+        transition: 1s;
+        background-color: #FFFFFF;
+        border: 1px solid #F72585;
+        color: #F72585;
+    }
+    &__left{
+        margin-left: 200px;
+    }
+}
